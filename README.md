@@ -4,6 +4,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Screenshot
 
+![desktop-preview](https://github.com/Mohamed806H/social-links-profile-main/assets/91362640/c74a4cdc-dea6-40ec-a37e-af6c61f43db3)
+
 ## Links
 
 - Solution URL:(https://github.com/Mohamed806H/social-links-profile-main.git)
