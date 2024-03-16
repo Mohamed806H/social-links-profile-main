@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+  --font-base: "Inter", sans-serif;
+  --clr-Green: hsl(75, 94%, 57%);
+  --clr-Grey: hsl(0, 0%, 20%);
+  --clr-DarkGrey: hsl(0, 0%, 12%);
+  --clr-White: hsl(0, 0%, 100%);
+  --clr-OffBlack: hsl(0, 0%, 8%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul[role="list"],
+ol[role="list"],
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  font-size: 0.875rem;
+  font-family: var(--font-base);
+  overflow-x: hidden;
+  background-color: var(--clr-OffBlack);
+  text-rendering: optimizeSpeed;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+a {
+  text-decoration: none;
+}
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
